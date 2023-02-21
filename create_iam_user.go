@@ -19,7 +19,7 @@ func main() {
     svc := iam.New(sess)
 
     // Set the username of the new IAM user
-    userName := "my-new-iam-user"
+    userName := "seshu-dev-team"
 
     // Create the new IAM user
     _, err := svc.CreateUser(&iam.CreateUserInput{
